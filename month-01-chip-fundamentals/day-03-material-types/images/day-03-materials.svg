@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc"><title id="title">Day 3: Three electrical material types</title><desc id="desc">Beginner semiconductor learning illustration for Conductors  •  Insulators  •  Semiconductors</desc><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071629"/><stop offset="1" stop-color="#1c466d"/></linearGradient></defs><rect width="1200" height="700" rx="26" fill="url(#bg)"/><g font-family="Arial,Helvetica,sans-serif" fill="#f3f8ff"><text x="42" y="49" font-size="21" font-weight="bold" fill="#65baf8">CHIP TECHNOLOGY • DAY 003</text><text x="42" y="108" font-size="43" font-weight="bold">Three electrical material types</text><text x="43" y="147" font-size="21" fill="#b9d2e8">Conductors  •  Insulators  •  Semiconductors</text>
+<rect x="40" y="171" width="352" height="405" rx="23" fill="#162d4b" stroke="#5584ab"/>
+<rect x="424" y="171" width="352" height="405" rx="23" fill="#162d4b" stroke="#5584ab"/>
+<rect x="808" y="171" width="352" height="405" rx="23" fill="#162d4b" stroke="#5584ab"/>
+<text x="216" y="228" text-anchor="middle" font-size="31" font-weight="bold" fill="#56d4e1">CONDUCTOR</text>
+<text x="600" y="228" text-anchor="middle" font-size="31" font-weight="bold" fill="#f7bd67">INSULATOR</text>
+<text x="984" y="228" text-anchor="middle" font-size="30" font-weight="bold" fill="#c099ff">SEMICONDUCTOR</text>
+<path d="M90 334H344" stroke="#77def2" stroke-width="24" stroke-linecap="round"/>
+<g fill="#ffffff"><circle cx="120" cy="334" r="10"/><circle cx="190" cy="334" r="10"/><circle cx="260" cy="334" r="10"/><circle cx="326" cy="334" r="10"/></g>
+<path d="M470 334H730" stroke="#f6bf72" stroke-width="24" stroke-linecap="round" stroke-dasharray="30 15"/>
+<path d="M850 334H1120" stroke="#b994ff" stroke-width="24" stroke-linecap="round"/>
+<g fill="#ffffff"><circle cx="866" cy="334" r="9"/><circle cx="1006" cy="334" r="9"/><circle cx="1111" cy="334" r="9"/></g>
+<text x="216" y="408" font-size="25" text-anchor="middle" font-weight="bold">Easy conduction</text>
+<text x="600" y="408" font-size="25" text-anchor="middle" font-weight="bold">Strongly resists</text>
+<text x="984" y="408" font-size="25" text-anchor="middle" font-weight="bold">Controllable</text>
+<text x="216" y="451" font-size="22" text-anchor="middle">Copper • Aluminum</text>
+<text x="600" y="451" font-size="22" text-anchor="middle">Rubber • Glass</text>
+<text x="984" y="451" font-size="22" text-anchor="middle">Silicon • Germanium</text>
+<text x="216" y="507" font-size="20" text-anchor="middle" fill="#c8d9e8">Electrical wiring</text>
+<text x="600" y="507" font-size="20" text-anchor="middle" fill="#c8d9e8">Electrical isolation</text>
+<text x="984" y="507" font-size="20" text-anchor="middle" fill="#c8d9e8">Transistors and chips</text>
+<text x="54" y="626" font-size="25" font-weight="bold">Key idea: silicon conductivity can be engineered using dopants and electric fields.</text>
+<text x="54" y="659" font-size="17" fill="#bdd0df">Illustrative comparison: actual conductivity depends on temperature, composition and conditions.</text></g></svg>
