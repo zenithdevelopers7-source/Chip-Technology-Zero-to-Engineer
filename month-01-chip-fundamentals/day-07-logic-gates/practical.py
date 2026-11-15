@@ -19,6 +19,11 @@ def not_gate(a):
     return 1 - check_bit(a)
 
 
+def nand_gate(a, b):
+    """NAND is the inverse of AND."""
+    return not_gate(and_gate(a, b))
+
+
 def main():
     print("Chip Technology - Day 007")
     print("A B | AND OR")
@@ -33,6 +38,7 @@ def main():
     assert [and_gate(a, b) for a in (0, 1) for b in (0, 1)] == [0, 0, 0, 1]
     assert [or_gate(a, b) for a in (0, 1) for b in (0, 1)] == [0, 1, 1, 1]
     assert [not_gate(a) for a in (0, 1)] == [1, 0]
+    assert [nand_gate(a, b) for a in (0, 1) for b in (0, 1)] == [1, 1, 1, 0]
 
     for invalid in (-1, 2, "1", True):
         try:
