@@ -1,5 +1,7 @@
 # Day 004 - Silicon and Semiconductor Doping
 
+![Day 4 - How doping changes silicon](images/day-04-silicon-doping.svg)
+
 ## Learning Objectives
 
 Understand why silicon is important for computer chips.
