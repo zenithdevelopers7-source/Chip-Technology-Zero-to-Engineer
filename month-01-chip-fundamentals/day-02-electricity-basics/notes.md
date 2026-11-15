@@ -1,5 +1,7 @@
 # Day 002 - Electricity Fundamentals
 
+![Day 2 - Voltage, current and resistance](images/day-02-ohms-law.svg)
+
 ## Learning Objectives
 
 Understand voltage, current, resistance, and Ohm's law.
