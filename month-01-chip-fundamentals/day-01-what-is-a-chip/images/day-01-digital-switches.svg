@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+<title id="title">Day 1: Digital switches and binary states</title>
+<desc id="desc">Infographic showing an open circuit for digital zero and a closed circuit for digital one, plus a diagram of how transistors build logic gates and chips.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1533"/><stop offset="1" stop-color="#173e66"/></linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172b4f"/><stop offset="1" stop-color="#10213e"/></linearGradient>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;fill:#f2f7ff}
+    .muted{fill:#b5c7de}.mini{font-size:20px}.label{font-size:24px;font-weight:700}
+    .wire{fill:none;stroke:#d4e1f2;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+</defs>
+<rect width="1200" height="690" rx="28" fill="url(#bg)"/>
+<rect x="26" y="26" width="1148" height="108" rx="22" fill="#ffffff" fill-opacity=".07"/>
+<text x="61" y="72" font-size="22" font-weight="700" fill="#6ff0db">CHIP TECHNOLOGY • DAY 001</text>
+<text x="61" y="112" font-size="39" font-weight="700">How digital switches represent 0 and 1</text>
+<rect x="26" y="158" width="559" height="335" rx="22" fill="url(#card)" stroke="#52698a"/>
+<rect x="615" y="158" width="559" height="335" rx="22" fill="url(#card)" stroke="#52698a"/>
+<circle cx="85" cy="219" r="23" fill="#f35d68"/><text x="85" y="227" text-anchor="middle" font-size="26" font-weight="700">0</text>
+<text x="121" y="226" class="label">OFF / OPEN CIRCUIT</text>
+<circle cx="674" cy="219" r="23" fill="#1fba98"/><text x="674" y="227" text-anchor="middle" font-size="26" font-weight="700">1</text>
+<text x="710" y="226" class="label">ON / CLOSED CIRCUIT</text>
+<!-- open switch -->
+<path d="M80 352 H213 M262 352 H500 V415 H80 V352" class="wire"/>
+<circle cx="213" cy="352" r="10" fill="#172b4f" stroke="#f35d68" stroke-width="6"/>
+<circle cx="262" cy="352" r="10" fill="#172b4f" stroke="#f35d68" stroke-width="6"/>
+<path d="M213 352 L252 309" stroke="#f35d68" stroke-width="8" stroke-linecap="round"/>
+<rect x="85" y="384" width="26" height="61" fill="#a5b5d0" rx="3"/>
+<path d="M79 400h38 M84 411h28" stroke="#fff" stroke-width="4"/>
+<text x="291" y="454" class="mini" fill="#f7a7af">Switch open → no continuous path</text>
+<!-- closed switch -->
+<path d="M669 352 H802 M851 352 H1089 V415 H669 V352" class="wire"/>
+<circle cx="802" cy="352" r="10" fill="#172b4f" stroke="#23d5af" stroke-width="6"/>
+<circle cx="851" cy="352" r="10" fill="#172b4f" stroke="#23d5af" stroke-width="6"/>
+<path d="M802 352 L851 352" stroke="#23d5af" stroke-width="8" stroke-linecap="round"/>
+<rect x="674" y="384" width="26" height="61" fill="#a5b5d0" rx="3"/>
+<path d="M668 400h38 M673 411h28" stroke="#fff" stroke-width="4"/>
+<circle cx="1029" cy="415" r="25" fill="#ffd66c" stroke="#fff0b2" stroke-width="5"/>
+<path d="M1017 411h24 M1022 426h14" stroke="#ba7611" stroke-width="3"/>
+<text x="814" y="454" class="mini" fill="#9bf7e4">Switch closed → current can flow</text>
+<text x="49" y="534" font-size="25" font-weight="700">From tiny switches to computing</text>
+<rect x="45" y="552" width="250" height="91" rx="16" fill="#21436c" stroke="#678db5"/>
+<text x="170" y="589" font-size="24" text-anchor="middle" font-weight="700">Transistors</text>
+<text x="170" y="617" text-anchor="middle" class="mini muted">Electronic switches</text>
+<path d="M302 598H344" stroke="#69d9ee" stroke-width="5" stroke-linecap="round"/>
+<path d="M335 590l12 8-12 8" fill="none" stroke="#69d9ee" stroke-width="5"/>
+<rect x="353" y="552" width="217" height="91" rx="16" fill="#21436c" stroke="#678db5"/>
+<text x="461" y="589" font-size="24" text-anchor="middle" font-weight="700">Logic gates</text>
+<text x="461" y="617" text-anchor="middle" class="mini muted">Process binary data</text>
+<path d="M577 598H619" stroke="#69d9ee" stroke-width="5" stroke-linecap="round"/>
+<path d="M610 590l12 8-12 8" fill="none" stroke="#69d9ee" stroke-width="5"/>
+<rect x="628" y="552" width="245" height="91" rx="16" fill="#21436c" stroke="#678db5"/>
+<text x="751" y="589" font-size="24" text-anchor="middle" font-weight="700">Integrated circuits</text>
+<text x="751" y="617" text-anchor="middle" class="mini muted">Connect many gates</text>
+<path d="M880 598H922" stroke="#69d9ee" stroke-width="5" stroke-linecap="round"/>
+<path d="M913 590l12 8-12 8" fill="none" stroke="#69d9ee" stroke-width="5"/>
+<rect x="930" y="552" width="224" height="91" rx="16" fill="#21436c" stroke="#678db5"/>
+<text x="1042" y="589" font-size="24" text-anchor="middle" font-weight="700">Processors</text>
+<text x="1042" y="617" text-anchor="middle" class="mini muted">Execute operations</text>
+<text x="42" y="673" font-size="16" class="muted">Conceptual diagrams; practical silicon transistor behavior is more complex.</text>
+</svg>
