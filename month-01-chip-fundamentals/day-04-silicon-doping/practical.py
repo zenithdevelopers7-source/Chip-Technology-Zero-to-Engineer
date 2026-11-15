@@ -4,6 +4,7 @@ DOPANTS = {
     "phosphorus": ("N-type", "electrons"),
     "arsenic": ("N-type", "electrons"),
     "boron": ("P-type", "holes"),
+    "antimony": ("N-type", "electrons"),
 }
 
 
@@ -38,6 +39,8 @@ def main():
     assert describe_silicon("phosphorus")[0] == "N-type"
     assert describe_silicon("boron")[0] == "P-type"
     assert describe_silicon("arsenic")[1] == "electrons"
+
+    assert describe_silicon("antimony")[0] == "N-type"
 
     print("All tests passed!")
 
