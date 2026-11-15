@@ -1,3 +1,7 @@
+# Day 001 - Visual Lesson
+
+![Day 1 - Digital Switches](images/day-01-chip-basics.png)
+
 # Day 001 — What Is a Computer Chip?
 
 ## What I Learned
