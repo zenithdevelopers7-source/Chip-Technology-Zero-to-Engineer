@@ -135,7 +135,7 @@ python3 research/end-to-end-ai-on-chip-implementation/software/mac_reference.py
 
 Expected final line: `All software reference tests passed!`
 
-This tests **all 65,536 pairs of unsigned byte patterns?** No. The actual test uses **deterministic edge vectors and 2,000 pseudorandom signed INT8 cases**; it is a bounded educational test suite, not exhaustive proof.
+The test uses **six deterministic edge vectors and 2,000 pseudorandom signed INT8 cases**. It is a bounded educational test suite, not exhaustive proof.
 
 ### Step B — Simulate RTL (optional tool install)
 
