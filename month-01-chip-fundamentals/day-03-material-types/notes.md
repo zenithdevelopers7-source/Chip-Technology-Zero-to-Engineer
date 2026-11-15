@@ -1,5 +1,7 @@
 # Day 003 - Conductors, Insulators, and Semiconductors
 
+![Day 3 - Three electrical material types](images/day-03-materials.svg)
+
 ## Learning Objective
 
 Understand how different materials behave electrically
